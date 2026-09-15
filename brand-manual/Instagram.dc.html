@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@400;500;600;700;800&display=swap">
+  <style>
+    body { margin: 0; }
+    a { color: #DD7860; } a:hover { color: #C4614A; }
+  </style>
+</helmet>
+<div style="--navy:#14213D; --cream:#F7F2E7; --coral:#DD7860; --text:#1A2333; --text-2:#857C6E; --line:#E5DFD0; width:1200px; height:900px; box-sizing:border-box; background:var(--cream); font-family:'Manrope',sans-serif; padding:72px; display:flex; flex-direction:column; gap:32px;">
+
+  <div style="display:flex; flex-direction:column; gap:8px;">
+    <span style="font-size:12px; font-weight:700; letter-spacing:0.16em; color:var(--coral); text-transform:uppercase;">06 — Aplicações</span>
+    <h2 style="margin:0; font-family:'Instrument Serif', serif; font-weight:400; font-size:52px; color:var(--navy);">Instagram</h2>
+  </div>
+
+  <div style="display:grid; grid-template-columns:repeat(3, minmax(0, 1fr)); gap:20px;">
+
+    <div style="aspect-ratio:1/1; background:var(--cream); border:1px solid var(--line); border-radius:4px; display:flex; flex-direction:column; justify-content:center; padding:36px; gap:20px;">
+      <div style="width:36px; height:2px; background:var(--coral);"></div>
+      <p style="margin:0; font-family:'Instrument Serif', serif; font-style:italic; font-size:26px; line-height:1.35; color:var(--navy);">"Clareza não é simplificar o direito. É parar de complicar o óbvio."</p>
+      <span style="font-size:11px; letter-spacing:0.08em; color:var(--text-2); text-transform:uppercase;">@srjur</span>
+    </div>
+
+    <div style="aspect-ratio:1/1; background:var(--navy); border-radius:4px; display:flex; flex-direction:column; justify-content:space-between; padding:36px;">
+      <span style="font-size:11px; letter-spacing:0.1em; color:var(--coral); text-transform:uppercase; font-weight:700;">Você sabia</span>
+      <p style="margin:0; font-family:'Manrope', sans-serif; font-weight:800; font-size:28px; line-height:1.25; color:var(--cream);">3 prazos que todo cliente confunde no processo cível</p>
+      <span style="font-size:11px; letter-spacing:0.08em; color:#A9AFC0; text-transform:uppercase;">Arraste para ver mais →</span>
+    </div>
+
+    <div style="aspect-ratio:1/1; background:var(--coral); border-radius:4px; display:flex; flex-direction:column; justify-content:space-between; padding:36px;">
+      <span style="font-size:11px; letter-spacing:0.1em; color:var(--navy); text-transform:uppercase; font-weight:700;">Novidade</span>
+      <p style="margin:0; font-family:'Instrument Serif', serif; font-style:italic; font-size:34px; line-height:1.15; color:var(--cream);">O hub do SRJUR está chegando</p>
+      <span style="font-size:11px; letter-spacing:0.08em; color:#FBEAE4; text-transform:uppercase;">Link na bio</span>
+    </div>
+  </div>
+
+  <div style="display:flex; flex-direction:column; gap:12px; flex:1;">
+    <span style="font-size:12px; font-weight:700; letter-spacing:0.1em; color:var(--navy); text-transform:uppercase;">Ritmo do feed</span>
+    <div style="display:grid; grid-template-columns:repeat(6, minmax(0, 1fr)); gap:8px; flex:1;">
+      <div style="background:var(--cream); border:1px solid var(--line); border-radius:3px;"></div>
+      <div style="background:var(--navy); border-radius:3px;"></div>
+      <div style="background:#FBF8F1; border:1px solid var(--line); border-radius:3px;"></div>
+      <div style="background:var(--coral); border-radius:3px;"></div>
+      <div style="background:var(--navy); border-radius:3px;"></div>
+      <div style="background:var(--cream); border:1px solid var(--line); border-radius:3px;"></div>
+    </div>
+    <p style="margin:0; font-size:13px; color:var(--text-2);">Alterna base cream (citações e bastidores), blocos navy (educativo) e coral (chamadas e novidades) — nunca dois blocos fortes seguidos.</p>
+  </div>
+</div>
+</x-dc>
+</body>
+</html>

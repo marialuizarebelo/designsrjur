@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@400;500;600;700;800&display=swap">
+  <style>
+    body { margin: 0; }
+    a { color: #DD7860; } a:hover { color: #C4614A; }
+  </style>
+</helmet>
+<div style="--navy:#14213D; --cream:#F7F2E7; --coral:#DD7860; --text:#1A2333; --text-2:#857C6E; --line:#E5DFD0; width:1200px; height:900px; box-sizing:border-box; background:var(--cream); font-family:'Manrope',sans-serif; padding:72px; display:flex; flex-direction:column; gap:36px;">
+
+  <div style="display:flex; flex-direction:column; gap:8px;">
+    <span style="font-size:12px; font-weight:700; letter-spacing:0.16em; color:var(--coral); text-transform:uppercase;">03 — Cor</span>
+    <h2 style="margin:0; font-family:'Instrument Serif', serif; font-weight:400; font-size:52px; color:var(--navy);">Paleta</h2>
+  </div>
+
+  <div style="display:flex; flex-direction:column; gap:14px;">
+    <span style="font-size:12px; font-weight:700; letter-spacing:0.1em; color:var(--navy); text-transform:uppercase;">Cores principais</span>
+    <div style="display:grid; grid-template-columns:repeat(3, minmax(0, 1fr)); gap:20px;">
+      <div style="display:flex; flex-direction:column;">
+        <div style="height:130px; border-radius:8px; background:var(--navy);"></div>
+        <div style="padding-top:12px; display:flex; flex-direction:column; gap:2px;">
+          <span style="font-size:14px; font-weight:700; color:var(--text);">Navy</span>
+          <span style="font-size:13px; color:var(--text-2); font-variant-numeric:tabular-nums;">#14213D</span>
+          <span style="font-size:12px; color:var(--text-2);">Base institucional · texto · navegação</span>
+        </div>
+      </div>
+      <div style="display:flex; flex-direction:column;">
+        <div style="height:130px; border-radius:8px; background:var(--cream); border:1px solid var(--line);"></div>
+        <div style="padding-top:12px; display:flex; flex-direction:column; gap:2px;">
+          <span style="font-size:14px; font-weight:700; color:var(--text);">Cream</span>
+          <span style="font-size:13px; color:var(--text-2); font-variant-numeric:tabular-nums;">#F7F2E7</span>
+          <span style="font-size:12px; color:var(--text-2);">Fundo padrão · leveza · respiro</span>
+        </div>
+      </div>
+      <div style="display:flex; flex-direction:column;">
+        <div style="height:130px; border-radius:8px; background:var(--coral);"></div>
+        <div style="padding-top:12px; display:flex; flex-direction:column; gap:2px;">
+          <span style="font-size:14px; font-weight:700; color:var(--text);">Coral</span>
+          <span style="font-size:13px; color:var(--text-2); font-variant-numeric:tabular-nums;">#DD7860</span>
+          <span style="font-size:12px; color:var(--text-2);">Ação primária · destaque · energia</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div style="display:flex; flex-direction:column; gap:14px;">
+    <span style="font-size:12px; font-weight:700; letter-spacing:0.1em; color:var(--navy); text-transform:uppercase;">Neutros</span>
+    <div style="display:grid; grid-template-columns:repeat(4, minmax(0, 1fr)); gap:20px;">
+      <div style="display:flex; flex-direction:column;">
+        <div style="height:64px; border-radius:8px; background:#FBF8F1; border:1px solid var(--line);"></div>
+        <span style="padding-top:10px; font-size:13px; color:var(--text-2);">#FBF8F1 · Superfície</span>
+      </div>
+      <div style="display:flex; flex-direction:column;">
+        <div style="height:64px; border-radius:8px; background:#E5DFD0;"></div>
+        <span style="padding-top:10px; font-size:13px; color:var(--text-2);">#E5DFD0 · Linha</span>
+      </div>
+      <div style="display:flex; flex-direction:column;">
+        <div style="height:64px; border-radius:8px; background:#857C6E;"></div>
+        <span style="padding-top:10px; font-size:13px; color:var(--text-2);">#857C6E · Texto 2</span>
+      </div>
+      <div style="display:flex; flex-direction:column;">
+        <div style="height:64px; border-radius:8px; background:#1A2333;"></div>
+        <span style="padding-top:10px; font-size:13px; color:var(--text-2);">#1A2333 · Texto</span>
+      </div>
+    </div>
+  </div>
+
+  <div style="display:flex; flex-direction:column; gap:14px;">
+    <span style="font-size:12px; font-weight:700; letter-spacing:0.1em; color:var(--navy); text-transform:uppercase;">Cores de apoio — status e categorias</span>
+    <div style="display:grid; grid-template-columns:repeat(4, minmax(0, 1fr)); gap:20px;">
+      <div style="display:flex; align-items:center; gap:10px; background:#FBF8F1; border:1px solid var(--line); border-radius:8px; padding:14px 16px;">
+        <div style="width:14px; height:14px; border-radius:50%; background:#6E9C7D; flex-shrink:0;"></div>
+        <span style="font-size:13px; color:var(--text);">Ativo · #6E9C7D</span>
+      </div>
+      <div style="display:flex; align-items:center; gap:10px; background:#FBF8F1; border:1px solid var(--line); border-radius:8px; padding:14px 16px;">
+        <div style="width:14px; height:14px; border-radius:50%; background:#D9A441; flex-shrink:0;"></div>
+        <span style="font-size:13px; color:var(--text);">Pendente · #D9A441</span>
+      </div>
+      <div style="display:flex; align-items:center; gap:10px; background:#FBF8F1; border:1px solid var(--line); border-radius:8px; padding:14px 16px;">
+        <div style="width:14px; height:14px; border-radius:50%; background:#D96C87; flex-shrink:0;"></div>
+        <span style="font-size:13px; color:var(--text);">Atrasado · #D96C87</span>
+      </div>
+      <div style="display:flex; align-items:center; gap:10px; background:#FBF8F1; border:1px solid var(--line); border-radius:8px; padding:14px 16px;">
+        <div style="width:14px; height:14px; border-radius:50%; background:#8577C9; flex-shrink:0;"></div>
+        <span style="font-size:13px; color:var(--text);">Informativo · #8577C9</span>
+      </div>
+    </div>
+  </div>
+</div>
+</x-dc>
+</body>
+</html>
