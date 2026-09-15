@@ -1,0 +1,110 @@
+{
+  "name": "SRJUR Design System",
+  "version": "1.0.0",
+  "color": {
+    "brand": {
+      "navy": { "value": "#14213D", "usage": "Cor de base — fundo dominante em produto, site e social" },
+      "navyDeep": { "value": "#0B1526", "usage": "Navy profundo — extremo escuro de gradientes" },
+      "navyMid": { "value": "#1A2C52", "usage": "Navy intermediário — meio de gradientes" },
+      "navyLight": { "value": "#26406E", "usage": "Navy claro — extremo claro de gradientes e superfícies elevadas" },
+      "cream": { "value": "#F5F1E6", "usage": "Fundo claro e texto sobre navy — respiro, nunca fundo dominante" },
+      "wine": { "value": "#8B3F42", "usage": "Cor de ação e destaque pontual — nunca em área grande" },
+      "wineLight": { "value": "#A6565A", "usage": "Vinho claro — hover, glow, variante clara do wine" }
+    },
+    "text": {
+      "onNavyPrimary": { "value": "#F5F1E6" },
+      "onNavySecondary": { "value": "#98A2BC" }
+    },
+    "status": {
+      "active": { "value": "#6E9C7D", "usage": "Ativo" },
+      "pending": { "value": "#D9A441", "usage": "Pendente" },
+      "overdue": { "value": "#D96C87", "usage": "Atrasado" },
+      "info": { "value": "#8577C9", "usage": "Consultivo / informativo" }
+    },
+    "glass": {
+      "surface": { "value": "rgba(245,241,230,0.05)" },
+      "border": { "value": "rgba(245,241,230,0.12)" },
+      "blur": { "value": "24px" }
+    }
+  },
+  "typography": {
+    "families": {
+      "display": {
+        "name": "Italiana",
+        "source": "Google Fonts",
+        "import": "https://fonts.googleapis.com/css2?family=Italiana&display=swap",
+        "weights": [400],
+        "usage": "Títulos, editorial, momentos de marca. Alterna caixa mista (Mm) e caixa alta com tracking (MM)."
+      },
+      "body": {
+        "name": "Manrope",
+        "source": "Google Fonts",
+        "import": "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap",
+        "weights": [400, 500, 600, 700, 800],
+        "usage": "Interface, corpo de texto, produto."
+      },
+      "accent": {
+        "name": "Cedarville Cursive",
+        "source": "Google Fonts",
+        "import": "https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap",
+        "weights": [400],
+        "usage": "Uso raro — uma assinatura, um recado curto. Nunca em títulos ou blocos de texto."
+      }
+    },
+    "scale": [
+      { "name": "display-hero", "family": "display", "size": "168px", "lineHeight": 0.95, "letterSpacing": "0.03em", "example": "capa / wordmark" },
+      { "name": "h1-editorial", "family": "display", "size": "56px", "lineHeight": 1, "case": "Mm" },
+      { "name": "h1-monumental", "family": "display", "size": "38px", "letterSpacing": "0.08em", "case": "MM" },
+      { "name": "h2-section", "family": "body", "weight": 800, "size": "36px" },
+      { "name": "subtitle", "family": "body", "weight": 700, "size": "22px" },
+      { "name": "body", "family": "body", "weight": 400, "size": "16px" },
+      { "name": "ui-label", "family": "body", "weight": 700, "size": "12px", "letterSpacing": "0.1em", "case": "uppercase" }
+    ],
+    "emphasisRule": "Dentro de uma mesma frase, uma ou duas palavras podem variar de tamanho e trocar para a família display — cria ritmo de leitura sem quebrar a hierarquia. Exemplo: 'Advocacia com [grande]clareza[/grande] — do escritório ao [wine]hub digital[/wine].'"
+  },
+  "logo": {
+    "type": "seal",
+    "shape": "circle",
+    "fill": "linear-gradient(160deg, #26406E, #14213D)",
+    "innerRing": "0 0 0 1px rgba(245,241,230,0.2) inset",
+    "wordmark": "SRjur",
+    "wordmarkFont": "Italiana",
+    "wordmarkColor": "#F5F1E6",
+    "wordmarkLetterSpacing": "-0.08em",
+    "clearSpace": "metade do diâmetro do selo, livre ao redor",
+    "minSize": "28px de diâmetro em telas",
+    "donts": [
+      "Não distorcer/esticar o selo",
+      "Não recolorir fora da paleta (navy/cream/wine)",
+      "Não aplicar sobre fundo sem contraste suficiente",
+      "Não rotacionar a peça"
+    ]
+  },
+  "radius": {
+    "seal": "50%",
+    "cardLarge": "20px-28px",
+    "button": "14px",
+    "pill": "999px",
+    "tileSmall": "10px-16px"
+  },
+  "shadow": {
+    "card": "0 20px 50px -28px rgba(0,0,0,0.6)",
+    "cardDeep": "0 24px 60px -30px rgba(0,0,0,0.6)",
+    "buttonGlow": "0 16px 30px -14px rgba(139,63,66,0.55)"
+  },
+  "components": {
+    "buttonPrimary": { "bg": "linear-gradient(160deg, #A6565A, #8B3F42)", "text": "#F5F1E6", "radius": "14px" },
+    "buttonSecondary": { "bg": "rgba(245,241,230,0.05)", "border": "1px solid rgba(245,241,230,0.12)", "text": "#F5F1E6", "radius": "14px" },
+    "badgeStatus": { "radius": "999px", "fontSize": "12px", "fontWeight": 700 }
+  },
+  "voice": {
+    "pillars": ["Clareza", "Proximidade", "Organização leve"],
+    "do": ["Frases diretas", "Primeira pessoa", "Referências reais do dia a dia jurídico", "Humor sutil quando cabe"],
+    "dont": ["Juridiquês desnecessário", "Jargão de startup vazio", "Tom professoral", "Promessas genéricas"]
+  },
+  "instagramRhythm": {
+    "dominant": "navy",
+    "accentFrequency": "vinho a cada 3-4 posts",
+    "restFrequency": "cream raro, a cada 8-10 posts"
+  }
+}
