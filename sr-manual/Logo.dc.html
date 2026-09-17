@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Italiana&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap">
+  <style>
+    body { margin: 0; }
+    a { color: #C7C0B9; } a:hover { color: #E7E5E3; }
+  </style>
+</helmet>
+<div style="--navy:#041542; --navy-2:#1E2E4C; --taupe:#C7C0B9; --cream:#E7E5E3; --wine:#4D102E; width:1200px; height:980px; box-sizing:border-box; background:linear-gradient(160deg, #030F30 0%, #041542 55%, #1E2E4C 100%); font-family:'Plus Jakarta Sans',sans-serif; padding:72px; display:flex; flex-direction:column; gap:30px; position:relative; overflow:hidden;">
+
+  <div style="position:absolute; top:-180px; right:-160px; width:520px; height:520px; border-radius:50%; background:radial-gradient(circle, rgba(199,192,185,0.12), rgba(199,192,185,0) 70%); filter:blur(20px);"></div>
+
+  <div style="display:flex; flex-direction:column; gap:8px; position:relative;">
+    <span style="font-size:12px; font-weight:600; letter-spacing:0.18em; color:var(--taupe); text-transform:uppercase;">02 — Identidade</span>
+    <h2 style="margin:0; font-family:'Italiana', serif; font-weight:600; font-size:52px; color:var(--cream);">Monograma oficial</h2>
+  </div>
+
+  <div style="display:grid; grid-template-columns:repeat(2, minmax(0, 1fr)); gap:24px; position:relative;">
+    <div style="background:rgba(231,229,227,0.05); border:1px solid rgba(231,229,227,0.12); border-radius:22px; padding:32px; display:flex; align-items:center; justify-content:center;">
+      <img src="sr-logo-navy.png" alt="" style="width:180px; height:180px; border-radius:14px;">
+    </div>
+    <div style="background:rgba(231,229,227,0.05); border:1px solid rgba(231,229,227,0.12); border-radius:22px; padding:32px; display:flex; align-items:center; justify-content:center;">
+      <img src="sr-logo-taupe.png" alt="" style="width:180px; height:180px; border-radius:14px;">
+    </div>
+  </div>
+
+  <div style="display:grid; grid-template-columns:repeat(2, minmax(0, 1fr)); gap:24px; flex:1; position:relative;">
+    <div style="display:flex; flex-direction:column; gap:14px;">
+      <span style="font-size:12px; font-weight:700; letter-spacing:0.1em; color:var(--cream); text-transform:uppercase;">Área de proteção</span>
+      <div style="flex:1; border:1.5px dashed rgba(231,229,227,0.3); border-radius:18px; display:flex; align-items:center; justify-content:center; padding:24px; background:rgba(231,229,227,0.02);">
+        <img src="sr-logo-navy.png" alt="" style="width:120px; height:120px; border-radius:10px;">
+      </div>
+      <p style="margin:0; font-size:13px; color:var(--taupe); opacity:0.75; line-height:1.5;">Mantenha ao redor do monograma um espaço livre equivalente à altura da letra "R". Tamanho mínimo: 32px em telas, 15mm impresso.</p>
+    </div>
+
+    <div style="display:flex; flex-direction:column; gap:14px;">
+      <span style="font-size:12px; font-weight:700; letter-spacing:0.1em; color:#C98A9E; text-transform:uppercase;">Não fazer</span>
+      <div style="flex:1; display:grid; grid-template-columns:repeat(2, minmax(0, 1fr)); gap:12px;">
+        <div style="background:rgba(231,229,227,0.05); border:1px solid rgba(231,229,227,0.12); border-radius:14px; display:flex; align-items:center; justify-content:center; padding:12px; position:relative; overflow:hidden;">
+          <img src="sr-logo-navy.png" alt="" style="width:100px; height:70px; border-radius:8px; object-fit:cover;">
+          <span style="position:absolute; top:8px; right:8px; color:#C98A9E; font-size:14px;">✕</span>
+        </div>
+        <div style="background:rgba(231,229,227,0.05); border:1px solid rgba(231,229,227,0.12); border-radius:14px; display:flex; align-items:center; justify-content:center; padding:12px; position:relative;">
+          <img src="sr-logo-navy.png" alt="" style="width:80px; height:80px; border-radius:8px; filter:hue-rotate(140deg) saturate(2);">
+          <span style="position:absolute; top:8px; right:8px; color:#C98A9E; font-size:14px;">✕</span>
+        </div>
+        <div style="background:rgba(231,229,227,0.05); border:1px solid rgba(231,229,227,0.12); border-radius:14px; display:flex; align-items:center; justify-content:center; padding:12px; position:relative;">
+          <img src="sr-logo-navy.png" alt="" style="width:80px; height:80px; border-radius:8px; opacity:0.22;">
+          <span style="position:absolute; top:8px; right:8px; color:#C98A9E; font-size:14px;">✕</span>
+        </div>
+        <div style="background:rgba(231,229,227,0.05); border:1px solid rgba(231,229,227,0.12); border-radius:14px; display:flex; align-items:center; justify-content:center; padding:12px; position:relative;">
+          <img src="sr-logo-navy.png" alt="" style="width:80px; height:80px; border-radius:8px; transform:rotate(28deg);">
+          <span style="position:absolute; top:8px; right:8px; color:#C98A9E; font-size:14px;">✕</span>
+        </div>
+      </div>
+      <p style="margin:0; font-size:13px; color:var(--taupe); opacity:0.75; line-height:1.5;">Não distorça, recolore fora da paleta, aplique com baixo contraste ou rotacione o monograma.</p>
+    </div>
+  </div>
+</div>
+</x-dc>
+</body>
+</html>
