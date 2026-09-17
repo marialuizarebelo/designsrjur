@@ -5,7 +5,9 @@
     { "file": "Logo.dc.html", "x": 2560, "y": 0, "w": 1200, "h": 980 },
     { "file": "Cores.dc.html", "x": 3840, "y": 0, "w": 1200, "h": 900 },
     { "file": "Tipografia.dc.html", "x": 5120, "y": 0, "w": 1200, "h": 1040 },
-    { "file": "Instagram.dc.html", "x": 6400, "y": 0, "w": 1200, "h": 1040 }
+    { "file": "Instagram.dc.html", "x": 6400, "y": 0, "w": 1200, "h": 900 },
+    { "file": "ReelsCapa.dc.html", "x": 7680, "y": 0, "w": 1200, "h": 900 },
+    { "file": "Carrossel.dc.html", "x": 8960, "y": 0, "w": 1200, "h": 900 }
   ],
   "launch": { "view": "canvas" }
 }
